@@ -22,16 +22,16 @@ namespace CoreProject.Controllers
 
 
 
-        //[HttpGet]
-        //public IActionResult User()
-        //{
-        //    return View();
-        //}
-        //[HttpPost]
-        //public IActionResult User(User u)
-        //{
-        //    return View();
-        //}
+        [HttpGet]
+        public IActionResult User1()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult User1(User u)
+        {
+            return View();
+        }
 
 
 
